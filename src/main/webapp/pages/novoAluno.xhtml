@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/templates/modeloSistema.xhtml">
+
+    <ui:define name="menu">
+        <ui:include src="/includes/menuPrincipal.xhtml"/>
+    </ui:define>
+
+    <ui:define name="conteudo">
+
+        <div class="ui-g-2" style="background-color: red"></div>
+        <div class="ui-g-8" >
+            <h3 class="text-center">Cadastro de Aluno</h3>
+           
+                <h:form>
+                                       
+                        <p:outputLabel value="Nome:"/>
+                        <p:inputText />
+                        <p:outputLabel value="Sobrenome:"/>
+                        <p:inputText />
+
+                    
+                </h:form>
+           
+        </div>
+        <div class="ui-g-2" style="background-color: red"></div>
+
+
+    </ui:define>
+</ui:composition>
